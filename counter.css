@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://griffithobservatory.org/wp-content/uploads/2021/12/4-9-21-Summer-Milky-Way-over-JTree-1-scaled.jpg);
+    margin:0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: monospace;
+   
+    align-items: center;
+}
+h1{
+    font-size:3rem;
+    font-weight: normal;
+    margin-top: 3rem;
+  
+}
+countdown-container{
+ flex-wrap: wrap;
+ align-items: center;
+ justify-content: center;
+}
+.big-text{
+    font-weight: bold;
+    font-size: 4rem;
+    line-height:1;
+    margin:0 2rem;
+
+}
+.count{
+    text-align: center;
+}
+.count span{
+    font-size: 1rem;
+}
